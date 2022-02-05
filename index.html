@@ -8,31 +8,31 @@
     <style>
         #links {
             text-decoration: none;
-            background: #0a0a0a;
+            background: #24d2f5;
             color: white;
             margin: 5px;
             padding: 5px;
         }
         #links a {
           text-decoration: none;
-          color: white;
+          color: black;
           text-align: center;
           margin: 5px;
           padding: 5px;
         }
         #links a:hover {
-            background: #474747;
+            background: #066f84;
         }
         #cent {
             position: absolute;
             left: 30vw;
             top: 20vw;
-            color: white;
+            color: black;
         }
         #vid {
             position: absolute;
             left: 30vw;
-            top: 65vw;
+            top: 60vw;
             margin: 5px;
             padding: 5px;
             color: white;
@@ -46,10 +46,12 @@
             position: absolute;
             left: 0vw;
             top: 90vw;
-            color: white;
+            color: black;
+            padding: 1vw;
+            background: #24d2f5;
         }
         body {
-            background: #212121;
+            background: white;
         }
         * {
           margin: 0;
@@ -80,5 +82,10 @@
             &copy; 2022 RitveekGupta
         </p>
     </div>
+    <script>
+        let end = document.getElementById("end");
+        end.style.top = screen.height;
+        end.style.width = screen.width;
+    </script>
 </body>
 </html>
