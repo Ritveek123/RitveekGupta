@@ -8,29 +8,39 @@
     <style>
         body {
             margin: 0;
+            background: black;
         }
         #links {
             text-decoration: none;
-            background: #24d2f5;
-            color: black;
+            background: #1a1a1a;
+            color: white;
             margin: 0px;
             padding: 5px;
         }
+        #links .you {
+            font-size: 3.5vw;
+        }
+        #links .disc {
+            font-size: 3.5vw;
+        }
+        #links .lik {
+            float: right;
+        }
         #links a {
           text-decoration: none;
-          color: black;
+          color: white;
           text-align: center;
           margin: 5px;
           padding: 5px;
         }
         #links a:hover {
-            background: #066f84;
+            color: #000000;
         }
         #cent {
             position: absolute;
             left: 30vw;
             top: 20vw;
-            color: black;
+            color: white;
         }
         #vid {
             position: absolute;
@@ -38,23 +48,26 @@
             top: 65vw;
             margin: 5px;
             padding: 5px;
+            border-radius: 1vw;
             color: white;
-            background: red;
+            background: rgb(68, 68, 68);
             border: none;
         }
         #vid:hover {
-            background: darkred;
+            background: rgb(46, 46, 46);
+            color: rgb(80, 80, 80);
         }
         #end {
             position: absolute;
             left: 0vw;
             top: 90vw;
-            color: black;
+            color: white;
             padding: 1vw;
-            background: #24d2f5;
+            text-align: center;
+            background: #1a1a1a;
         }
         body {
-            background: white;
+            background: black;
         }
         * {
           margin: 0;
@@ -62,10 +75,10 @@
         }
     </style>
     <div id="links">
-        <h1 style="font-size:6vw">Ritveek Gupta <a href="https://www.youtube.com/channel/UCQFEcyqp5GedHXCprhhvFvw" >youtube</a> <a href="https://discord.gg/FF9yb449uY">discord server</a></h1>
+        <h1 style="font-size:6vw">Ritveek Gupta <div class="lik"><a class="you" href="https://www.youtube.com/channel/UCQFEcyqp5GedHXCprhhvFvw" >youtube</a> <a class="disc"href="https://discord.gg/FF9yb449uY">discord server</a></div></h1>
     </div>
     <div id="cent">
-        <h1 style="font-size:7vw">      Hi!</h1>
+        <h1 class="txtq" style="font-size:7vw">      Hi!</h1>
         <p style="font-size:5vw">
             I am ritveek gupta i am a
         </p>
