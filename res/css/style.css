@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#links {
+    text-decoration: none;
+    background: #1a1a1a;
+    color: white;
+    margin: 0px;
+    padding: 5px;
+}
+#links .you {
+    font-size: 3.5vw;
+}
+#links .disc {
+    font-size: 3.5vw;
+}
+#links .lik {
+    float: right;
+}
+#links a {
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  margin: 5px;
+  padding: 5px;
+}
+#links a:hover {
+    color: #000000;
+}
+.litinfo {
+    position: relative;
+    left: 1vw;
+    top: 1vw;
+    width: 15vw;
+    border-radius: 1vw;
+    height: 26vw;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    margin: 1vw;
+    padding: 1vw;
+    float: center;
+}
+.litinfo .ico {
+    width: 15vw;
+    height: 15vw;
+}
+.litinfo .title {
+    text-align: center;
+}
+.litinfo .info {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    position: relative;
+    left: 5.15vw;
+    border: 0;
+}
+.litinfo .info:hover {
+    background: transparent;
+    color: darkorange;
+}
+#end {
+    position: absolute;
+    left: 0vw;
+    top: 90vw;
+    color: white;
+    padding: 1vw;
+    text-align: center;
+    background: #1a1a1a;
+}
