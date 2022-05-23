@@ -71,3 +71,36 @@ body {
     text-align: center;
     background: #1a1a1a;
 }
+.litinfo2 {
+    position: relative;
+    left: 1vw;
+    top: 1vw;
+    width: 15vw;
+    border-radius: 1vw;
+    color: white;
+    background-color: rgb(27, 27, 27);
+    margin: 1vw;
+    padding: 1vw;
+    float: center;
+}
+.litinfo2 .ico2 {
+    width: 15vw;
+    height: 15vw;
+}
+.litinfo2 .title2 {
+    text-align: center;
+}
+.litinfo2 .info2 {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+    position: relative;
+    top: 0px;
+    border: 0;
+}
+.litinfo2 .info2:hover {
+    background: transparent;
+    color: darkorange;
+}
